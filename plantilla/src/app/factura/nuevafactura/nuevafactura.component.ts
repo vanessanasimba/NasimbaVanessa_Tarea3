@@ -89,7 +89,7 @@ export class NuevafacturaComponent implements OnInit {
           alert('Factura actualizada');
           this.navegacion.navigate(['/facturas']);
         }
-      })
+      });
     }
 
   }
